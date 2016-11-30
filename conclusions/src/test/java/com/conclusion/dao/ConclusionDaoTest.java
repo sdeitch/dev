@@ -24,6 +24,7 @@ public class ConclusionDaoTest {
         conclusion.setPath("Big Jopa/Jopa/jopka");
         conclusion.setConclusion("realy Big Jopa");
 
+        // insert to db
         conclusionDao.insert(conclusion);
     }
 }
