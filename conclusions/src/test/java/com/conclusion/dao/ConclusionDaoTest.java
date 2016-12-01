@@ -21,7 +21,7 @@ public class ConclusionDaoTest {
     public void testInsert() {
         Conclusion conclusion = new Conclusion();
         conclusion.setUserId("jopa");
-        conclusion.setPath("Big Jopa/Jopa/jopka");
+        conclusion.setPath("Big Jopa/Jopa/jopka/test_branch");
         conclusion.setConclusion("realy Big Jopa");
 
         // insert to db
