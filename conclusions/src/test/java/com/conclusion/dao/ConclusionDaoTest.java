@@ -25,6 +25,7 @@ public class ConclusionDaoTest {
         conclusion.setConclusion("realy Big Jopa");
 
         // insert to db
+        // add comment from test_branch
         conclusionDao.insert(conclusion);
     }
 }
