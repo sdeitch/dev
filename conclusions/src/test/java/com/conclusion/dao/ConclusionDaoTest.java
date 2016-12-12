@@ -27,6 +27,7 @@ public class ConclusionDaoTest {
         // insert to db
         // add comment from test_branch
         //add comment from test_branch on git_repository
+        //add comment for test2
         conclusionDao.insert(conclusion);
     }
 }
